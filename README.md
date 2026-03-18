@@ -51,13 +51,6 @@ pip install -r requirements.txt
 python run_experiment.py --sample-size 100
 ```
 
-Различные другие варианты запуска:
-
-```bash
-python run_experiment.py --sample-size 200 --patchtst-max-steps 75 --catboost-iterations 400
-python run_experiment.py --sample-size 100 --force-download
-```
-
 Скрипт обновляет только CSV с результатами. Ноутбук `results/analysis_results.ipynb` используется для анализа полученных таблиц CSV, сохраняется в репозитории и не пересоздаётся автоматически при каждом запуске.
 
 ## Выходные файлы
